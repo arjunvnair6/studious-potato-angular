@@ -10,6 +10,11 @@ export class FirstLandingPortionComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log('here')
+    
   }
-
+  changeVideo(name: string){
+    const video = document.getElementById('myVideo');
+    
+  }
 }
